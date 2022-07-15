@@ -6,6 +6,7 @@ import { CryptoState } from '../CryptoContext'
 import styled from '@emotion/styled'
 import { CircularProgress } from '@mui/material';
 import { Line } from 'react-chartjs-2'
+// eslint-disable-next-line
 import {Chart as ChartJS} from 'chart.js/auto'
 import { chartDays } from '../Config/data';
 import SelectButton from './SelectButton';
